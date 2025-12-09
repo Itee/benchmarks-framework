@@ -1,6 +1,6 @@
 {
   "name": "@itee/benchmarks-framework",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A dedicated web test runner framework for the Benchmarks.js library to allow to run benchmarks in front side",
   "keywords": [
     "itee",
