@@ -1,0 +1,55 @@
+{
+  "name": "@itee/benchmarks-framework",
+  "version": "0.0.0",
+  "description": "A dedicated web test runner framework for the Benchmarks.js library to allow to run benchmarks in front side",
+  "keywords": [
+    "itee",
+    "test-runner",
+    "framework"
+  ],
+  "author": {
+    "name": "Itee (Tristan Valcke)",
+    "url": "https://github.com/Itee"
+  },
+  "contributors": [],
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Itee/benchmarks-framework.git"
+  },
+  "type": "module",
+  "main": "benchmarks-framework.js",
+  "homepage": "",
+  "man": "",
+  "bugs": {
+    "url": "https://github.com/Itee/benchmarks-framework/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "os": [
+    "win32",
+    "linux"
+  ],
+  "cpu": [
+    "x64",
+    "ia32"
+  ],
+  "scripts": {
+    "semantic-release": "semantic-release --dry-run --no-ci",
+    "semantic-release-force": "semantic-release --no-ci"
+  },
+  "dependencies": {
+    "@web/test-runner-core": "^0.13.4"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.6",
+    "@semantic-release/npm": "^12.0.2",
+    "cz-emoji": "^1.3.2-canary.2",
+    "semantic-release": "^24.2.9",
+    "semantic-release-gitmoji": "^1.6.8"
+  }
+}
